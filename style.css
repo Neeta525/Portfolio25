@@ -1,24 +1,103 @@
 body {
-    background-color: blueviolet;
+    background-image: linear-gradient(-45deg, #1565c0, #b92b27);
+	color: #fff;
+}
+
+#topHeader {
+    font-family: monospace;
+    color: darksalmon;
+    display: flex;
+    justify-content: left;
 }
 
 .header {
+    border: 5px solid #000000;
+    border-radius: 5px;
+    background-color: rgb(112, 9, 107);
+    list-style-type: none;
+    color:rgb(195, 195, 209);
+    display: flex;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: left;
+}
+
+.header-menu li {
+    padding: 1rem;
+}
+
+a, li {
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.headimage {
+    display: grid;
+    margin: auto;
+    align-items: center;
+}
+
+.aboutMe {
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
     border-color: rgb(212, 174, 247);
     padding: 20px;
-    margin: 250px 500px 250px 500px;
+    margin: 50px 600px 250px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     float: left;
     width: 150px;
     height: 150px;
+    background-color: rgb(48, 140, 201);
 }
 
-h1 {
+.Work {
+    border-width: 10px;
+    border-radius: 100px;
+    border-style: double;
+    border-color: rgb(212, 174, 247);
+    padding: 20px;
+    margin: 150px 600px 250px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(48, 140, 201);
+}
+
+.Contact-Me {
+    border-width: 10px;
+    border-radius: 100px;
+    border-style: double;
+    border-color: rgb(212, 174, 247);
+    padding: 20px;
+    margin: 250px 600px 250px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(48, 140, 201);
+}
+
+h2 {
     color: white;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-size: xx-large;
 }
