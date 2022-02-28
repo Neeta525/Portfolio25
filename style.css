@@ -6,14 +6,14 @@ body {
 #topHeader {
     font-family: monospace;
     color: darksalmon;
-    display: flex;
-    justify-content: left;
+    display: inline-block;
+    justify-content: space-around;
 }
 
 .header {
     border: 5px solid #000000;
     border-radius: 5px;
-    background-color: rgb(112, 9, 107);
+    background-color: rgb(56, 100, 243);
     list-style-type: none;
     color:rgb(195, 195, 209);
     display: flex;
@@ -21,9 +21,8 @@ body {
 
 .header-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     list-style: none;
-    justify-content: left;
 }
 
 .header-menu li {
@@ -41,10 +40,12 @@ a:hover {
     padding: 10px;
 }
 
-.headimage {
-    display: grid;
-    margin: auto;
-    align-items: center;
+.banner {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 .aboutMe {
