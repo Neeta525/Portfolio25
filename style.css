@@ -49,12 +49,13 @@ a:hover {
 }
 
 .aboutMe {
+    position: relative;
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
     border-color: rgb(212, 174, 247);
     padding: 20px;
-    margin: 50px 600px 250px 200px;
+    margin: 50px 600px 50px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,15 +63,36 @@ a:hover {
     width: 150px;
     height: 150px;
     background-color: rgb(48, 140, 201);
+}
+
+.about-me-paragraph {
+    position: absolute;
+    border-width: 5px;
+    border-radius: 0px 0px 0px -45%;
+    border-style: groove;
+    border-color: #35054b;
+    padding: 20px;
+    margin: 50px 20px 50px 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #1565c0;
+}
+
+.photo {
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
 }
 
 .Work {
+    position: relative;
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
     border-color: rgb(212, 174, 247);
     padding: 20px;
-    margin: 150px 600px 250px 200px;
+    margin: 50px 600px 50px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,13 +102,28 @@ a:hover {
     background-color: rgb(48, 140, 201);
 }
 
+.Work-Paragraph {
+    position: absolute;
+    border-width: 5px;
+    border-radius: 0px 0px 0px -45%;
+    border-style: groove;
+    border-color: #35054b;
+    padding: 20px;
+    margin: 350px 20px 50px 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #1565c0;
+}
+
 .Contact-Me {
+    position: relative;
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
     border-color: rgb(212, 174, 247);
     padding: 20px;
-    margin: 250px 600px 250px 200px;
+    margin: 50px 600px 50px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +131,20 @@ a:hover {
     width: 150px;
     height: 150px;
     background-color: rgb(48, 140, 201);
+}
+
+.Contact-Me-Paragraph {
+    position: absolute;
+    border-width: 5px;
+    border-radius: 0px 0px 0px -45%;
+    border-style: groove;
+    border-color: #35054b;
+    padding: 20px;
+    margin: 650px 20px 50px 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #1565c0;
 }
 
 h2 {
