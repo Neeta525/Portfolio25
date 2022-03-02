@@ -3,20 +3,21 @@ body {
 	color: #fff;
 }
 
-#topHeader {
-    font-family: monospace;
-    color: darksalmon;
-    display: inline-block;
-    justify-content: space-around;
-}
-
 .header {
-    border: 5px solid #000000;
+    border: 2px solid #000000;
     border-radius: 5px;
-    background-color: rgb(56, 100, 243);
+    background-color: rgb(90, 56, 243);
     list-style-type: none;
     color:rgb(195, 195, 209);
     display: flex;
+    justify-content: space-between;
+}
+
+#topHeader {
+    font-family: cursive;
+    color: darksalmon;
+    display: inline-block;
+    justify-content: left;
 }
 
 .header-menu {
@@ -67,8 +68,9 @@ a:hover {
 
 .about-me-paragraph {
     position: absolute;
+    border: 5px solid #266cbd;
     border-width: 5px;
-    border-radius: 0px 0px 0px -45%;
+    border-radius: 5px;
     border-style: groove;
     border-color: #35054b;
     padding: 20px;
@@ -105,7 +107,7 @@ a:hover {
 .Work-Paragraph {
     position: absolute;
     border-width: 5px;
-    border-radius: 0px 0px 0px -45%;
+    border-radius: 5px;
     border-style: groove;
     border-color: #35054b;
     padding: 20px;
@@ -136,7 +138,7 @@ a:hover {
 .Contact-Me-Paragraph {
     position: absolute;
     border-width: 5px;
-    border-radius: 0px 0px 0px -45%;
+    border-radius: 5px;
     border-style: groove;
     border-color: #35054b;
     padding: 20px;
