@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(-45deg, #1565c0, #b92b27);
 }
 
+/*This styles the header*/
 .header {
     border: 5px solid #24083b;
     border-radius: 5px;
@@ -13,7 +14,7 @@ body {
     justify-content: space-between;
     max-width: 100%;
 }
-
+/*This styles the main header in the header*/
 #topHeader {
     font-family: cursive;
     color: whitesmoke;
@@ -21,27 +22,32 @@ body {
     justify-content: left;
 }
 
+/*This styles the list in the header*/
 .header-menu {
     display: flex;
     justify-content: end;
     list-style: none;
 }
 
+/*This adds padding around the texts in the list*/
 .header-menu li {
     padding: 1rem;
 }
 
+/*This adds style to the text to anchor tags and lists*/
 a, li {
     font-weight: bold;
     text-decoration: none;
     color: whitesmoke;
 }
 
+/*This creates a blue highlight when you hover over the anchor tags*/
 a:hover {
     background-color: cornflowerblue;
     padding: 10px;
 }
 
+/*This style the image at the top of the page*/
 .banner {
     display: block;
     margin: 0;
@@ -50,6 +56,7 @@ a:hover {
     max-width: 100%;
 }
 
+/*This organizes the sections in the main part of the page*/
 .main {
     display: grid;
     width: 100%;
@@ -58,6 +65,7 @@ a:hover {
     margin-left: 10rem;
 }
 
+/*Creates and styles the heading before the about me paragraph*/
 .aboutMe {
     border-width: 10px;
     border-radius: 100px;
@@ -69,12 +77,14 @@ a:hover {
     background-color: rgb(48, 140, 201);
 }
 
+/*This styles the text in the first article*/
 .about-me-paragraph {
     border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
 }
 
+/*This styles the photo image included in the about me paragraph*/
 .photo {
     border-radius: 5px;
     display: flex;
@@ -85,6 +95,7 @@ a:hover {
     margin-right: 2rem;
 }
 
+/*Creates and styles the heading before the work paragraph*/
 .Work {
     border-width: 10px;
     border-radius: 100px;
@@ -96,12 +107,14 @@ a:hover {
     background-color: rgb(48, 140, 201);
 }
 
+/*This styles the second article*/
 .Work-Paragraph {
     border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
 }
 
+/*Creates and styles the heading before the contact me paragraph*/
 .Contact-Me {
     border-width: 10px;
     border-radius: 100px;
@@ -113,12 +126,14 @@ a:hover {
     background-color: rgb(48, 140, 201);
 }
 
+/*This styles the third article*/
 .Contact-Me-Paragraph {
     border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
 }
 
+/*This styles the text in the headings before each article paragraphs*/
 h2 {
     color: white;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -126,11 +141,13 @@ h2 {
     font-size: xx-large;
 }
 
+/*This styles the text in the articles*/
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
 }
 
+/*This styles the text in the footer*/
 h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
