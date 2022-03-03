@@ -1,12 +1,12 @@
 body {
     background-image: linear-gradient(-45deg, #1565c0, #b92b27);
-	color: #fff;
 }
 
 .header {
-    border: 2px solid #000000;
+    border: 5px solid #24083b;
     border-radius: 5px;
-    background-color: rgb(90, 56, 243);
+    border-style: double;
+    background-color: rgb(54, 31, 160);
     list-style-type: none;
     color:rgb(195, 195, 209);
     display: flex;
@@ -15,9 +15,9 @@ body {
 
 #topHeader {
     font-family: cursive;
-    color: darksalmon;
+    color: whitesmoke;
     display: inline-block;
-    justify-content: left;
+    justify-content: left, space-around;
 }
 
 .header-menu {
@@ -68,17 +68,18 @@ a:hover {
 
 .about-me-paragraph {
     position: absolute;
-    border: 5px solid #266cbd;
     border-width: 5px;
     border-radius: 5px;
-    border-style: groove;
-    border-color: #35054b;
+    border-style: double;
+    border-color: rgb(212, 174, 247);
     padding: 20px;
     margin: 50px 20px 50px 400px;
     width: 700px;
     display: flex;
     justify-content: center;
     background-color: #1565c0;
+    float: left;
+    shape-outside: circle(50%);
 }
 
 .photo {
@@ -108,14 +109,19 @@ a:hover {
     position: absolute;
     border-width: 5px;
     border-radius: 5px;
-    border-style: groove;
-    border-color: #35054b;
+    border: 5px solid #266cbd;
+    border-style: double;
+    border-color: rgb(212, 174, 247);
     padding: 20px;
     margin: 350px 20px 50px 400px;
     width: 700px;
     display: flex;
     justify-content: center;
     background-color: #1565c0;
+}
+
+.Contact-Me, .Contact-Me-Paragraph {
+    
 }
 
 .Contact-Me {
@@ -139,8 +145,8 @@ a:hover {
     position: absolute;
     border-width: 5px;
     border-radius: 5px;
-    border-style: groove;
-    border-color: #35054b;
+    border-style: double;
+    border-color: rgb(212, 174, 247);
     padding: 20px;
     margin: 650px 20px 50px 400px;
     width: 700px;
