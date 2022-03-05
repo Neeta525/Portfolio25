@@ -34,7 +34,7 @@ body {
     padding: 1rem;
 }
 
-/*This adds style to the text to anchor tags and lists*/
+/*This adds style to the text in anchor tags and lists*/
 a, li {
     font-weight: bold;
     text-decoration: none;
@@ -53,7 +53,14 @@ a:hover {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    max-width: 100%;
+}
+
+/**/
+@media screen and (max-width: 600px) {
+    .main {
+        float: none;
+        width: 100%;
+    }
 }
 
 /*This organizes the sections in the main part of the page*/
@@ -72,14 +79,13 @@ a:hover {
     border-style: double;
     border-color: rgb(212, 174, 247);
     padding: 20px;
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
     background-color: rgb(48, 140, 201);
 }
 
 /*This styles the text in the first article*/
 .about-me-paragraph {
-    border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
 }
@@ -109,9 +115,45 @@ a:hover {
 
 /*This styles the second article*/
 .Work-Paragraph {
-    border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
+}
+
+/*The following elements arrange the projects within the work paragraph*/
+.projectsBig {
+    margin: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#project1 {
+    width: 100%;
+    float: left;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.projectsSmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#project2, #project3 {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#project2 {
+    display: left;
+    justify-items: center;
+}
+
+#project3 {
+    display: right;
+    justify-items: center;
 }
 
 /*Creates and styles the heading before the contact me paragraph*/
@@ -128,14 +170,19 @@ a:hover {
 
 /*This styles the third article*/
 .Contact-Me-Paragraph {
-    border-color: rgb(212, 174, 247);
     padding: 20px;
     max-width: 700px;
 }
 
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
 /*This styles the text in the headings before each article paragraphs*/
 h2 {
-    color: white;
+    color: whitesmoke;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: xx-large;
@@ -151,4 +198,6 @@ p {
 h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1565c0;
+    text-shadow: 2px 2px #0a2e58;
 }
