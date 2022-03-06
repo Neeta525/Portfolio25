@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     max-width: 100%;
 }
+
 /*This styles the main header in the header*/
 #topHeader {
     font-family: cursive;
@@ -45,31 +46,22 @@ a, li {
 a:hover {
     background-color: cornflowerblue;
     padding: 10px;
+    cursor: pointer;
 }
 
-/*This style the image at the top of the page*/
+/*This styles the image at the top of the page*/
 .banner {
-    display: block;
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-
-/**/
-@media screen and (max-width: 600px) {
-    .main {
-        float: none;
-        width: 100%;
-    }
 }
 
 /*This organizes the sections in the main part of the page*/
 .main {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 200px 2fr;
-    gap: 10px;
-    margin-left: 10rem;
+   display: grid;
+   grid-template-columns: 200px 2fr;
+   gap: 1rem;
+   margin-left: 10rem;
 }
 
 /*Creates and styles the heading before the about me paragraph*/
@@ -101,6 +93,7 @@ a:hover {
     margin-right: 2rem;
 }
 
+
 /*Creates and styles the heading before the work paragraph*/
 .Work {
     border-width: 10px;
@@ -121,17 +114,16 @@ a:hover {
 
 /*The following elements arrange the projects within the work paragraph*/
 .projectsBig {
-    margin: 10px 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
 #project1 {
-    width: 100%;
+    width: 700px;
     float: left;
     border: 1px solid blue;
-    padding: 20px;
+    padding: 30px;
 }
 
 .projectsSmall {
@@ -141,9 +133,9 @@ a:hover {
 }
 
 #project2, #project3 {
-    width: 50%;
-    padding: 20px;
+    width: 350px;
     border: 1px solid blue;
+    padding: 30px;
 }
 
 #project2 {
@@ -174,6 +166,7 @@ a:hover {
     max-width: 700px;
 }
 
+/*This creates spce between contact links and logos*/
 .contacts {
     display: flex;
     justify-content: space-between;
@@ -186,10 +179,11 @@ h2 {
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: xx-large;
+    text-shadow: 2px 2px #0a2e58;
 }
 
 /*This styles the text in the articles*/
-p {
+p, div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
 }
@@ -201,3 +195,22 @@ h3 {
     color: #1565c0;
     text-shadow: 2px 2px #0a2e58;
 }
+
+@media screen and (max-width: 900px) {
+    .header-menu {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: 100%
+    }
+}
+
