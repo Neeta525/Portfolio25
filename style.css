@@ -4,10 +4,10 @@ body {
 
 /*This styles the header*/
 .header {
-    border: 5px solid #24083b;
+    border: 5px solid #39083b;
     border-radius: 5px;
     border-style: double;
-    background-color: rgb(52, 43, 128);
+    background-color: rgb(124, 13, 82);
     list-style-type: none;
     color:rgb(195, 195, 209);
     display: flex;
@@ -123,7 +123,7 @@ a:hover {
     width: 700px;
     float: left;
     border: 1px solid blue;
-    padding: 30px;
+    padding: 30px; 
 }
 
 .projectsSmall {
