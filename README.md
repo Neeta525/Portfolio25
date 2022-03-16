@@ -5,4 +5,4 @@ This portfolio was created to host future projects.
 I built this to practice the skills that I have been learning the last couple of weeks. It helped me to understand advanced CSS skills such as media queries, flex box/grid, and other styling properties.
 ## Usage
 Here is a screenshot of my Portfolio
-![Portfolio25]{assets\portfolioBanner2.jpg}
+![alt text](assets/portfolioscreenshot.png)
