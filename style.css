@@ -1,26 +1,33 @@
 body {
-    background-image: linear-gradient(-45deg, #1565c0, #b92b27);
+    background-image: linear-gradient(-45deg, #37547a, #85b0c9, #c6ebec);
 }
 
+
+
 /*This styles the header*/
-.header {
-    border: 5px solid #39083b;
+#header {
+    border: 5px solid #293241;
     border-radius: 5px;
     border-style: double;
-    background-color: rgb(124, 13, 82);
+    background-color: #3D5A80;
     list-style-type: none;
     color:rgb(195, 195, 209);
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    margin: 25px;
+    padding: 15px;
 }
 
 /*This styles the main header in the header*/
 #topHeader {
-    font-family: cursive;
     color: whitesmoke;
     display: inline-block;
     justify-content: left;
+    font-family: scarlet-wood,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
 }
 
 /*This styles the list in the header*/
@@ -40,50 +47,56 @@ a, li {
     font-weight: bold;
     text-decoration: none;
     color: whitesmoke;
+    font-family: scarlet-wood,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
 }
 
 /*This creates a blue highlight when you hover over the anchor tags*/
 a:hover {
-    background-color: cornflowerblue;
+    background-color: #293241;
     padding: 10px;
     cursor: pointer;
 }
 
 /*This styles the image at the top of the page*/
-.banner {
+/* .banner {
     display: flex;
     margin: 0;
     padding: 0;
-}
+} */
 
 /*This organizes the sections in the main part of the page*/
-.main {
+/* .main {
    display: grid;
    grid-template-columns: 200px 2fr;
    gap: 1rem;
    margin-left: 10rem;
-}
+} */
 
 /*Creates and styles the heading before the about me paragraph*/
-.aboutMe {
+#aboutMe {
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
-    border-color: rgb(212, 174, 247);
+    border-color: #293241;
     padding: 20px;
     max-width: 150px;
     max-height: 150px;
-    background-color: rgb(48, 140, 201);
+    background-color: #3D5A80;
+    padding: 15px;
+    margin-left: 10em;
 }
 
 /*This styles the text in the first article*/
-.about-me-paragraph {
+#about-me-paragraph {
     padding: 20px;
     max-width: 700px;
 }
 
 /*This styles the photo image included in the about me paragraph*/
-.photo {
+#photo {
     border-radius: 5px;
     display: flex;
     justify-content: end;
@@ -95,19 +108,21 @@ a:hover {
 
 
 /*Creates and styles the heading before the work paragraph*/
-.Work {
+#work {
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
-    border-color: rgb(212, 174, 247);
+    border-color: #293241;
     padding: 20px;
     width: 150px;
     height: 150px;
-    background-color: rgb(48, 140, 201);
+    background-color: #3D5A80;
+    padding: 15px;
+    margin-left: 10em;
 }
 
 /*This styles the second article*/
-.Work-Paragraph {
+#workParagraph {
     padding: 20px;
     max-width: 700px;
 }
@@ -122,8 +137,7 @@ a:hover {
 #project1 {
     width: 700px;
     float: left;
-    border: 1px solid blue;
-    padding: 30px; 
+    border: 1px solid #98C1D9; 
 }
 
 .projectsSmall {
@@ -134,8 +148,7 @@ a:hover {
 
 #project2, #project3 {
     width: 350px;
-    border: 1px solid blue;
-    padding: 30px;
+    border: 1px solid #98C1D9;
 }
 
 #project2 {
@@ -149,15 +162,17 @@ a:hover {
 }
 
 /*Creates and styles the heading before the contact me paragraph*/
-.Contact-Me {
+#contactMe {
     border-width: 10px;
     border-radius: 100px;
     border-style: double;
-    border-color: rgb(212, 174, 247);
+    border-color: #293241;
     padding: 20px;
     width: 150px;
     height: 150px;
-    background-color: rgb(48, 140, 201);
+    background-color: #3D5A80;
+    padding: 15px;
+    margin-left: 10em;
 }
 
 /*This styles the third article*/
@@ -169,14 +184,17 @@ a:hover {
 /*This creates spce between contact links and logos*/
 .contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
+    padding: 10px;
 }
 
 /*This styles the text in the headings before each article paragraphs*/
 h2 {
     color: whitesmoke;
-    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: scarlet-wood,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     font-size: xx-large;
     text-shadow: 2px 2px #0a2e58;
@@ -185,32 +203,98 @@ h2 {
 /*This styles the text in the articles*/
 p, div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
+    color: #293241;
+    font-weight: bold;
 }
 
 /*This styles the text in the footer*/
 h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #1565c0;
+    color: #3D5A80;
     text-shadow: 2px 2px #0a2e58;
 }
 
-@media screen and (max-width: 900px) {
-    .header-menu {
+#contactFB, #contactGit, #contactG, #contactT {
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width: 480px) {
+    .header {
         display: flex;
         justify-content: left;
         flex-direction: column;
-        width: 100%
+        width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 450px) {
     .main {
         display: flex;
         justify-content: left;
         flex-direction: column;
-        width: 100%
+        width: 100%;
     }
+} */
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
+#project1 {
+    --_g: no-repeat linear-gradient(#000 0 0);
+    --_s: 10% /45% 45%;
+    --m:
+    var(--_g) left   var(--_i,0%) top    var(--_s),
+    var(--_g) bottom var(--_i,0%) left   var(--_s),
+    var(--_g) top    var(--_i,0%) right  var(--_s),
+    var(--_g) right  var(--_i,0%) bottom var(--_s);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+}
+#project1:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
+#project2 {
+    --_g: no-repeat linear-gradient(#000 0 0);
+    --_s: 10% /45% 45%;
+    --m:
+    var(--_g) left   var(--_i,0%) top    var(--_s),
+    var(--_g) bottom var(--_i,0%) left   var(--_s),
+    var(--_g) top    var(--_i,0%) right  var(--_s),
+    var(--_g) right  var(--_i,0%) bottom var(--_s);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+}
+#project2:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+#project3 {
+    --_g: no-repeat linear-gradient(#000 0 0);
+    --_s: 10% /45% 45%;
+    --m:
+    var(--_g) left   var(--_i,0%) top    var(--_s),
+    var(--_g) bottom var(--_i,0%) left   var(--_s),
+    var(--_g) top    var(--_i,0%) right  var(--_s),
+    var(--_g) right  var(--_i,0%) bottom var(--_s);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+}
+#project3:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}

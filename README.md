@@ -1,8 +1,11 @@
 # Portfolio25
-This project is to showcase what I have learned so far. 
+This project is to demonstrate who I am and the projects I have worked on. 
 ## Description
-This portfolio was created to host future projects.
-I built this to practice the skills that I have been learning the last couple of weeks. It helped me to understand advanced CSS skills such as media queries, flex box/grid, and other styling properties.
-## Usage
+My portfolio has three projects so far. I have updated my portfolio so that is it more poslished and has better complimenting colors. I hav chosen my favorite projects and added them to my portfolio's work section. I look forward to continue learning and adding to my portfolio.
+## Installation
+This project should work on most browsers
+Check out the deployed link here :point_right: [Deployed Link](https://neeta525.github.io/Portfolio25/)
+
+## Screenshot
 Here is a screenshot of my Portfolio
-![alt text](assets/portfolioscreenshot.png)
+![alt text](assets/portfolioSS.png)
