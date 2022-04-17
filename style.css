@@ -10,18 +10,16 @@ body {
     background-color: #3D5A80;
     list-style-type: none;
     color:rgb(195, 195, 209);
-    display: flex;
-    justify-content: space-between;
     max-width: 100%;
-    margin: 25px;
+    margin: 20px;
     padding: 15px;
 }
 
 /*This styles the main header in the header*/
 #topHeader {
     color: whitesmoke;
-    display: inline-block;
-    justify-content: left;
+    display: flex;
+    justify-content: center;
     font-family: scarlet-wood,sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -29,14 +27,14 @@ body {
 }
 
 /*This styles the list in the header*/
-.header-menu {
+#header-menu {
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
     list-style: none;
 }
 
 /*This adds padding around the texts in the list*/
-.header-menu li {
+#header-menu li {
     padding: 1rem;
 }
 
@@ -58,20 +56,6 @@ a:hover {
     cursor: pointer;
 }
 
-/*This styles the image at the top of the page*/
-/* .banner {
-    display: flex;
-    margin: 0;
-    padding: 0;
-} */
-
-/*This organizes the sections in the main part of the page*/
-/* .main {
-   display: grid;
-   grid-template-columns: 200px 2fr;
-   gap: 1rem;
-   margin-left: 10rem;
-} */
 
 /*Creates and styles the heading before the about me paragraph*/
 #aboutMe {
@@ -217,23 +201,6 @@ h3 {
     border-radius: 10px;
 }
 
-/* @media screen and (max-width: 480px) {
-    .header {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        width: 100%;
-    }
-} */
-
-/* @media screen and (max-width: 450px) {
-    .main {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        width: 100%;
-    }
-} */
 
 #banner {
     width: 100%;
@@ -298,6 +265,7 @@ h3 {
 }
 
 #p1ss, #hw1ss, #hw2ss {
-    padding: 5em;
+    padding-right: 8em;
+    padding-bottom: 1em;
 }    
 
