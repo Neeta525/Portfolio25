@@ -2,8 +2,6 @@ body {
     background-image: linear-gradient(-45deg, #37547a, #85b0c9, #c6ebec);
 }
 
-
-
 /*This styles the header*/
 #header {
     border: 5px solid #293241;
@@ -53,7 +51,7 @@ a, li {
     font-size: 25px;
 }
 
-/*This creates a blue highlight when you hover over the anchor tags*/
+/*This creates a highlight when you hover over the anchor tags*/
 a:hover {
     background-color: #293241;
     padding: 10px;
@@ -298,3 +296,8 @@ h3 {
     --_i: 10%;
     filter: grayscale(0);
 }
+
+#p1ss, #hw1ss, #hw2ss {
+    padding: 5em;
+}    
+

@@ -9,3 +9,20 @@ Check out the deployed link here :point_right: [Deployed Link](https://neeta525.
 ## Screenshot
 Here is a screenshot of my Portfolio
 ![alt text](assets/portfolioSS.png)
+
+#Credits
+
+## Author
+- Anita Chavez
+- :briefcase: [Portfolio](https://neeta525.github.io/Portfolio25/)
+- :octocat: [GitHub](https://github.com/Neeta525)
+
+
+## Built With:
+- HTML
+- CSS
+- JavaScript
+
+## License
+
+- MIT
